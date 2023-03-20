@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "coursework-6-pd12"
+version = "0.1.0"
+description = ""
+authors = ["StasHunter92 <stashunter92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "coursework_6_pd12"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+drf-spectacular = "^0.26.0"
+psycopg2 = "^2.9.5"
+django-cors-headers = "^3.14.0"
+python-dotenv = "^1.0.0"
+djoser = "^2.1.0"
+django-phonenumber-field = {extras = ["phonenumberslite"], version = "^7.0.2"}
+djangorestframework = "^3.14.0"
+pillow = "^9.4.0"
+django-filter = "^22.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
